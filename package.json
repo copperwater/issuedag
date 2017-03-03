@@ -1,0 +1,14 @@
+{
+  "name": "issuedag",
+  "version": "0.0.0",
+  "description": "A web application for visualizing issue dependencies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "copperwater",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.15.0"
+  }
+}
