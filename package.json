@@ -1,14 +1,20 @@
 {
-  "name": "issuedag",
+  "name": "issuedag2",
   "version": "0.0.0",
-  "description": "A web application for visualizing issue dependencies",
-  "main": "app.js",
+    "description": "A web application for visualizing issue dependencies",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "author": "copperwater",
   "license": "GPL-3.0",
   "dependencies": {
-    "express": "^4.15.0"
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "hbs": "~4.0.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
   }
 }
