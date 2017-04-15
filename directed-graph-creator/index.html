@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="graph-creator.css" />
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+  </head>
+
+  <body>
+    <div id="graph">
+    <div id="toolbox">
+      <!--
+      <input type="file" id="hidden-file-upload">
+      <input id="upload-input" type="image" title="upload graph" src="upload-icon.png" alt="upload graph">
+      <input type="image" id="download-input" title="download graph" src="download-icon.png" alt="download graph">
+      <input type="image" id="delete-graph" title="delete graph" src="trash-icon.png" alt="delete graph">
+      -->
+      <div id="modeNotice">
+        <span id="nodemode" class="hidden nodemode">NODE MODE</span>
+        <span id="edgemode" class="edgemode">EDGE MODE</span>
+      </div>
+      <button id="newNode" type="button" title="Add new node" onclick="showNodeDialog()">New Node</button>
+    </div>
+    </div>
+    <div id="new-node-overlay" onClick="dispelNodeDialog()">
+      <div class="overlay-input-box">
+        <h3>Creating New Node</h3>
+        <input class="block" id="newNodeTitle" type="text" placeholder="Enter node title" />
+        <input class="block" id="newNodeText" type="text" placeholder="Enter node description" />
+        <button type="button" onClick="addNewNode()">Add New Node</button>
+        <button type="button" onClick="dispelNodeDialog()">Cancel</button>
+      </div>
+    </div>
+
+    <script src="//d3js.org/d3.v3.js" charset="utf-8"></script>
+    <script src="//cdn.jsdelivr.net/filesaver.js/0.1/FileSaver.min.js"></script>
+    <script src="graph-creator.js"></script>
+  </body>
+
+</html>

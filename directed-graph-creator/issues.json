@@ -1,0 +1,310 @@
+{
+  "issues": [
+    {
+      "number": 2,
+      "title": "Course watch/notification system",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/2"
+    },
+    {
+      "number": 5,
+      "title": "Design - notify users when we cannot serve very recent/instantaneous data",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/5"
+    },
+    {
+      "number": 7,
+      "title": "Conflicting courses on the schedule for non-vital conflicts and conflict comparison",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/7"
+    },
+    {
+      "number": 8,
+      "title": "Schedule image export",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/8"
+    },
+    {
+      "number": 13,
+      "title": "Search with explicit parameters",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/13"
+    },
+    {
+      "number": 15,
+      "title": "Search - Mapping colloquial search terms to actual database results",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/15"
+    },
+    {
+      "number": 28,
+      "title": "Caching for API views",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/28"
+    },
+    {
+      "number": 30,
+      "title": "Implement RPI Catalog API",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/30"
+    },
+    {
+      "number": 38,
+      "title": "As a student, I would like to specify inclusive and exclusive search terms so I can search for courses more effectively",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/38"
+    },
+    {
+      "number": 39,
+      "title": "Document configuration and setup steps",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/39"
+    },
+    {
+      "number": 52,
+      "title": "Investigate performance enhancements for scheduler",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/52"
+    },
+    {
+      "number": 56,
+      "title": "As a student, I would like to view the course and section data from past semesters so I can be a historian or something",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/56"
+    },
+    {
+      "number": 57,
+      "title": "As a student, I would like to reserve blocks of time on my schedule so I can schedule around extracurricular events",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/57"
+    },
+    {
+      "number": 74,
+      "title": "Method of limiting course descriptions by default ",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/74"
+    },
+    {
+      "number": 76,
+      "title": "(Admin) Optionally have schools in the departments API returned in a fixed order",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/76"
+    },
+    {
+      "number": 83,
+      "title": "Show which courses conflict when there are no schedules available due to a conflict",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/83"
+    },
+    {
+      "number": 85,
+      "title": "As a student, I would like to view a page that tells me more about YACS so I can learn of its motivations, goals, and history",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/85"
+    },
+    {
+      "number": 87,
+      "title": "Show pre-reqs and co-reqs of a course on scheduling page ",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/87"
+    },
+    {
+      "number": 89,
+      "title": "Schedule icon",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/89"
+    },
+    {
+      "number": 90,
+      "title": "As a student, I would like to click a truncated course description to expand it so that I can know more about the course",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/90"
+    },
+    {
+      "number": 92,
+      "title": "Partial search returns no results",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/92"
+    },
+    {
+      "number": 93,
+      "title": "Ignoring section crosslisting data can result in sections being shown as open when they are in fact closed",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/93"
+    },
+    {
+      "number": 97,
+      "title": "Class priority levels (need versus want)",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/97"
+    },
+    {
+      "number": 99,
+      "title": "(FAR FUTURE) Monitor and show course availability over time",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/99"
+    },
+    {
+      "number": 102,
+      "title": "Change representation of times in the database to minutes since start of week",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/102"
+    },
+    {
+      "number": 104,
+      "title": "Instant search results as you type",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/104"
+    },
+    {
+      "number": 109,
+      "title": "Create Github wiki for extended documentation",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/109"
+    },
+    {
+      "number": 125,
+      "title": "As a student, I would like each schedule to display the number of credits and show me if that exceeds the normal credit limit",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/125"
+    },
+    {
+      "number": 128,
+      "title": "Use Apache solr for search",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/128"
+    },
+    {
+      "number": 129,
+      "title": "Create generalized data update interface with differencing",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/129"
+    },
+    {
+      "number": 131,
+      "title": "The semester of the data should be shown on the main page",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/131"
+    },
+    {
+      "number": 141,
+      "title": "Redesign layout of the course list",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/141"
+    },
+    {
+      "number": 142,
+      "title": "508 Compliance and Accessibility",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/142"
+    },
+    {
+      "number": 154,
+      "title": "Ask registrar to include full names of instructors and display this information",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/154"
+    },
+    {
+      "number": 161,
+      "title": "Filter Search Results ",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/161"
+    },
+    {
+      "number": 162,
+      "title": "Allow selection switching between desired course and presently listed conflict.",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/162"
+    },
+    {
+      "number": 163,
+      "title": "Improve frontend cache ",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/163"
+    },
+    {
+      "number": 164,
+      "title": "Include the course name of the conflicting class for conflicts on course list",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/164"
+    },
+    {
+      "number": 168,
+      "title": "Create catalog adapter service for YACS at RPI",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/168"
+    },
+    {
+      "number": 171,
+      "title": "CRNs should display on the schedule if only sections with no periods are selected",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/171"
+    },
+    {
+      "number": 172,
+      "title": "ICS Download does not properly download file in Safari",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/172"
+    },
+    {
+      "number": 173,
+      "title": "Downloaded schedule has wrong start date",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/173"
+    },
+    {
+      "number": 183,
+      "title": "Redesign schedule page deselection list",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/183"
+    },
+    {
+      "number": 185,
+      "title": "Use Foundation to Create Responsive Design",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/185"
+    },
+    {
+      "number": 190,
+      "title": "Update Mission Statement",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/190"
+    },
+    {
+      "number": 201,
+      "title": "Notification that an AJAX request has failed",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/201"
+    },
+    {
+      "number": 203,
+      "title": "Write tutorial for creating SIS XML dump",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/203"
+    },
+    {
+      "number": 204,
+      "title": "Create Improved Schedule API",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/204"
+    },
+    {
+      "number": 205,
+      "title": "Create a Data Admin Panel",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/205"
+    },
+    {
+      "number": 208,
+      "title": "Add C/U operations to API",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/208"
+    },
+    {
+      "number": 217,
+      "title": "Move Frontend to its own Repo",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/217"
+    },
+    {
+      "number": 218,
+      "title": "Document Schedule library",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/218"
+    },
+    {
+      "number": 221,
+      "title": "Add configurable backups to postgres container",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/221"
+    },
+    {
+      "number": 225,
+      "title": "Add information about the version of the data to all API calls",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/225"
+    },
+    {
+      "number": 230,
+      "title": "Schedule view should have loading icon while waiting for an AJAX call",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/230"
+    },
+    {
+      "number": 232,
+      "title": "Notice bar for posting information to users",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/232"
+    },
+    {
+      "number": 235,
+      "title": "Create an Advanced Search view",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/235"
+    },
+    {
+      "number": 241,
+      "title": "'Featured' Courses page",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/241"
+    },
+    {
+      "number": 242,
+      "title": "Tag courses as 'featured'",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/242"
+    },
+    {
+      "number": 243,
+      "title": "Event Stream API",
+      "url": "https://github.com/YACS-RCOS/yacs/issues/243"
+    }
+  ],
+  "dependencies": [
+    {
+      "source": 5,
+      "dependency": 2
+    }
+  ]
+}
