@@ -120,7 +120,7 @@ div#new-node-overlay {
     display:none;
 }
 
-.overlay-input-box {
+.overlay-content {
     width: 50%;
     height:50%;
     position:fixed;

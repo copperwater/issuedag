@@ -19,21 +19,21 @@
         <span id="nodemode" class="hidden nodemode">NODE MODE</span>
         <span id="edgemode" class="edgemode">EDGE MODE</span>
       </div>
-      <button id="newNode" type="button" title="Add new node" onclick="showNodeDialog()">New Node</button>
+      <button id="new-node" type="button" title="Add new node">New Node</button>
     </div>
     </div>
-    <div id="new-node-overlay" onClick="dispelNodeDialog()">
-      <div class="overlay-input-box">
+    <div id="new-node-overlay">
+      <div class="overlay-content" id="overlay-input-box">
         <h3>Creating New Node</h3>
-        <input class="block" id="newNodeTitle" type="text" placeholder="Enter node title" />
-        <input class="block" id="newNodeText" type="text" placeholder="Enter node description" />
-        <button type="button" onClick="addNewNode()">Add New Node</button>
-        <button type="button" onClick="dispelNodeDialog()">Cancel</button>
+        <input class="block" id="new-node-title" type="text"></input>
+        <input class="block" id="new-node-text" type="text" placeholder="Enter node description" />
+        <button type="button" id="create-node">Add New Node</button>
+        <button type="button" id="cancel-node">Cancel</button>
       </div>
     </div>
 
     <script src="//d3js.org/d3.v3.js" charset="utf-8"></script>
-    <script src="//cdn.jsdelivr.net/filesaver.js/0.1/FileSaver.min.js"></script>
+    <!-- <script src="//cdn.jsdelivr.net/filesaver.js/0.1/FileSaver.min.js"></script> -->
     <script src="graph-creator.js"></script>
   </body>
 

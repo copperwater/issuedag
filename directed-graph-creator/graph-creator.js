@@ -87,7 +87,8 @@ var GraphCreator = function(svg, nodes, edges){
         });
 
   // listen for key events
-  d3.select(window).on("keydown", function(){
+  d3.select('body').on("keydown", function(){
+    console.log('keydown on graph');
     thisGraph.svgKeyDown.call(thisGraph);
   })
   .on("keyup", function(){
@@ -620,21 +621,40 @@ GraphCreator.prototype.updateWindow = function(svg){
   svg.attr("width", x).attr("height", y);
 };
 
-window.showNodeDialog = function() {
+var showNodeDialog = function(e) {
   document.getElementById('new-node-overlay').style.display = "block";
 };
-window.dispelNodeDialog = function() {
+var dispelNodeDialog = function(e) {
   document.getElementById('new-node-overlay').style.display = "none";
 };
-window.addNewNode = function() {
+var addNewNode = function(e) {
   // document.getElementById(
-  graph.addNode('sdfsdf', 'sdfsdfsdf');
   window.dispelNodeDialog();
 };
 
 
 /**** MAIN ****/
 document.onload = (function(d3){
+
+  var nodeDialogBtn = document.getElementById('new-node');
+  var overlay = document.getElementById('new-node-overlay');
+  var overlayContent = document.getElementById('overlay-input-box');
+  var createNodeBtn = document.getElementById('create-node');
+  var cancelNodeBtn = document.getElementById('cancel-node');
+
+  /* event listeners */
+  nodeDialogBtn.addEventListener('click', showNodeDialog);
+  overlay.addEventListener('click', dispelNodeDialog);
+  cancelNodeBtn.addEventListener('click', dispelNodeDialog);
+  overlayContent.addEventListener('click', function(e) {
+    e.stopPropagation();
+  });
+  createNodeBtn.addEventListener('click', function(e) {
+    var newNodeTitle = document.getElementById('new-node-title');
+    var newNodeText = document.getElementById('new-node-text');
+    graph.addNode(newNodeTitle.value, newNodeText.value);
+    dispelNodeDialog();
+  });
 
   // warn the user when leaving
   // window.onbeforeunload = function(){
@@ -685,4 +705,5 @@ document.onload = (function(d3){
  * TODO: Arrows end at either the top left or bottom left corner based on relative y. (Deferred)
  * TODO: Drag edge "snaps" to node when cursor mouseovers that node.
  * TODO: Save functionality
+ * TODO: Multiple node selection and moving/deleting them together
  */
